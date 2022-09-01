@@ -1,0 +1,17 @@
+1. How to write lambda expression
+2. 1.8 and upper we can use lambda expression
+3. Lambda Expression is an anonymous Function
+    -> No name
+    -> No Modifier
+    -> No Return Type
+    ()->{
+        System.out.println(); // This is a simple lambda function
+    }
+
+   (int a, int b)->{
+    return a+b;
+   }
+4. we can use lambda expression only with functional interfaces
+
+
+

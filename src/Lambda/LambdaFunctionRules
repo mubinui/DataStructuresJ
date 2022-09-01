@@ -1,0 +1,5 @@
+Rules
+    1. if in the body of lambda expression contains only one statement then
+    curly braces are optional
+    2. The type of the arguments are optional too
+    3.
