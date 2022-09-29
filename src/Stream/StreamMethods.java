@@ -12,7 +12,8 @@ public class StreamMethods {
         
            
         
-        
+
+
         //map(Function ) returns value  
                 // each element operation 
 

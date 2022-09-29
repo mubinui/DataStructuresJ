@@ -2,9 +2,9 @@ package Tree;
 
 public class Node{
     Node left , right ;
-    int item;
-    public Node(int item){
-        this.item = item;
+    int data;
+    public Node(int data){
+        this.data = data;
         left=right=null;
 
     }
