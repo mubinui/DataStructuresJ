@@ -35,4 +35,40 @@ public class BinarySearchTree {
 
         }
     }
+    // tree traversal methods DFS
+    // Inorder preorder and postorder
+    public void inorder(Node root){
+        if (root == null) return;
+        inorder(root.left);
+        System.out.print(root.data+" ");
+        inorder(root.right);
+
+    }
+    public void preorder(Node root){
+        if (root== null) return;
+        System.out.print(root.data+" ");
+        preorder(root.left);
+        preorder(root.right);
+
+    }
+    public void postorder(Node root){
+        if (root == null) return;
+        postorder(root.left);
+        postorder(root.right);
+        System.out.print(root.data+" ");
+
+    }
+
+    public int countNode(Node root){
+        if (root==null) return 0;
+        int left = countNode(root.left);
+        int right = countNode(root.right);
+        return left + right + 1; // here 1 for root .
+        // the recursive method will iterate through the whole tree
+        // so even the leaves will be considered as root
+    }
+//    public int countHeight(Node root){
+//        if (root==null) return
+//    }
+
 }
